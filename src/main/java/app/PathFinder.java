@@ -83,7 +83,7 @@ public class PathFinder {
         warehouses = new ArrayList<>();
         roads = new ArrayList<>();
 
-        frame = new JFrame("eFlow2W");
+        frame = new JFrame("PathFinder");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //Initializing backgroundPanel and defining constraints for body and header
