@@ -1,0 +1,7 @@
+CityName,CityId,DistrictName,CityHasWarehouse,HasRoad,Roads
+Viana do Castelo,147,Viana do Castelo,No,Yes,3
+Braga,26,Braga,Yes,Yes,3
+Póvoa de Varzim,115,Porto,No,Yes,3
+Guimarães,60,Braga,No,Yes,3
+Chaves,35,Vila Real,No,Yes,2
+Bragança,27,Bragança,No,Yes,2

@@ -1,0 +1,163 @@
+CityName,CityId,DistrictName,CityHasWarehouse,HasRoad,Roads
+Abrantes,1,Santarém,Yes,Yes,3
+Águeda,2,Aveiro,No,Yes,4
+Albufeira,3,Faro,No,Yes,4
+Alcácer do Sal,4,Setúbal,No,Yes,4
+Alcobaça,5,Leiria,No,No,0
+Alcotim,6,Faro,No,Yes,3
+Alfena,7,Porto,No,No,0
+Almada,8,Setúbal,No,Yes,2
+Almeirim,9,Santarém,No,No,0
+Almodôvar,10,Beja,No,Yes,3
+Amadora,11,Lisbon,Yes,Yes,3
+Amarante,12,Porto,No,Yes,5
+Anadia,13,Aveiro,No,No,0
+Angra do Heroísmo,14,Azores,No,No,0
+Arouca,15,Aveiro,No,Yes,4
+Arraiolos,16,Évora,Yes,Yes,3
+Aveiro,17,Aveiro,No,Yes,3
+Avis,18,Portalegre,No,Yes,3
+Baião,19,Porto,No,Yes,4
+Barcelos,20,Braga,No,No,0
+Barreiro,21,Setúbal,No,No,0
+Batalha,22,Leiria,No,Yes,4
+Beja,23,Beja,Yes,Yes,4
+Bombarral,24,Leiria,No,No,0
+Borba,25,Évora,No,Yes,3
+Braga,26,Braga,No,Yes,3
+Bragança,27,Bragança,No,Yes,3
+Caldas da Rainha,28,Leiria,No,Yes,4
+Cantanhede,29,Coimbra,No,No,0
+Cartaxo,30,Santarém,No,No,0
+Cascais,31,Lisbon,No,Yes,2
+Castelo Branco,32,Castelo Branco,No,Yes,5
+Castro Marim,33,Faro,No,Yes,2
+Chamusca,34,Santarém,No,Yes,5
+Chaves,35,Vila Real,No,Yes,3
+Coimbra,36,Coimbra,No,Yes,7
+Coruche,37,Santarém,No,Yes,3
+Covilhã,38,Castelo Branco,No,Yes,3
+Cuba,39,Évora,No,Yes,3
+Elvas,40,Portalegre,No,Yes,4
+Entroncamento,41,Santarém,No,No,0
+Espinho,42,Aveiro,No,Yes,3
+Esposende,43,Braga,No,No,0
+Estarreja,44,Aveiro,No,No,0
+Estoril,45,Lisbon,No,No,0
+Estremoz,46,Évora,No,Yes,3
+Évora,47,Évora,No,Yes,4
+Fafe,48,Braga,No,No,0
+Faro,49,Faro,No,Yes,3
+Fátima,50,Leiria,No,No,0
+Felgueiras,51,Porto,No,No,0
+Ferreira do Alentejo,52,Évora,No,Yes,4
+Figueira da Foz,53,Coimbra,No,Yes,3
+Fundão,54,Castelo Branco,No,Yes,2
+Gavião,55,Portalegre,No,No,0
+Góis,56,Coimbra,No,No,0
+Gondomar,57,Porto,No,No,0
+Gouveia,58,Guarda,No,No,0
+Guarda,59,Guarda,No,Yes,4
+Guimarães,60,Braga,No,Yes,7
+Ílhavo,61,Aveiro,No,Yes,1
+Lagoa,62,Faro,No,Yes,3
+Lagos,63,Faro,No,Yes,3
+Lamego,64,Viseu,No,Yes,4
+Leiria,65,Leiria,No,Yes,4
+Lisbon,66,Lisbon,No,Yes,4
+Loulé,67,Faro,No,Yes,5
+Loures,68,Lisbon,No,Yes,4
+Macedo de Cavaleiros,69,Bragança,No,No,0
+Mafra,70,Lisbon,No,Yes,3
+Magadouro,71,Bragança,No,Yes,4
+Maia,72,Porto,No,No,0
+Mangualde,73,Viseu,No,No,0
+Marco de Canaveses,74,Porto,No,No,0
+Marinha Grande,75,Leiria,No,No,0
+Matosinhos,76,Porto,No,No,0
+Mealhada,77,Aveiro,No,No,0
+Mêda,78,Guarda,No,No,0
+Miranda do Douro,79,Bragança,No,No,0
+Miranda do Ouro,80,Bragança,No,Yes,2
+Mirandela,81,Bragança,No,Yes,4
+Monchique,82,Faro,No,Yes,4
+Montemor-o-Novo,83,Évora,No,No,0
+Montijo,84,Setúbal,No,Yes,4
+Moura,85,Beja,No,Yes,2
+Mourão,86,Évora,No,Yes,3
+Nazaré,87,Leiria,No,Yes,2
+Nelas,88,Viseu,Yes,Yes,4
+Nisa,89,Portalegre,No,Yes,3
+Óbidos,90,Leiria,No,Yes,3
+Odemira,91,Beja,No,Yes,3
+Odivelas,92,Lisbon,No,No,0
+Oeiras,93,Lisbon,No,No,0
+Olhão,94,Faro,No,No,0
+Oliveira de Azeméis,95,Aveiro,No,No,0
+Oliveira do Bairro,96,Aveiro,No,No,0
+Oliveira do Hospital,97,Coimbra,No,No,0
+Ourém,98,Santarém,No,Yes,2
+Ourique,99,Beja,Yes,Yes,4
+Ovar,100,Aveiro,No,No,0
+Paços de Ferreira,101,Porto,No,No,0
+Pampilhosa da Serra,102,Coimbra,No,Yes,3
+Paredes,103,Porto,Yes,Yes,3
+Penacova,104,Coimbra,No,No,0
+Penafiel,105,Porto,No,No,0
+Penela,106,Coimbra,No,Yes,2
+Peniche,107,Leiria,No,No,0
+Peso da Régua,108,Vila Real,No,No,0
+Pinhel,109,Guarda,No,Yes,2
+Pombal,110,Leiria,No,Yes,3
+Ponte de Sor,111,Portalegre,No,No,0
+Portalegre,112,Portalegre,No,Yes,3
+Portimão,113,Faro,No,Yes,3
+Porto,114,Porto,No,Yes,4
+Póvoa de Varzim,115,Porto,No,Yes,3
+Reguengos de Monsaraz,116,Évora,No,No,0
+Rio Maior,117,Santarém,No,Yes,3
+Sabugal,118,Guarda,No,Yes,3
+Santa Comba Dão,119,Viseu,No,No,0
+Santa Maria da Feira,120,Aveiro,No,No,0
+Santarém,121,Santarém,No,Yes,5
+Santiago do Cacém,122,Setúbal,No,No,0
+Santo Tirso,123,Porto,No,Yes,3
+São João da Madeira,124,Aveiro,No,No,0
+Seia,125,Guarda,No,No,0
+Seixal,126,Setúbal,No,No,0
+Serpa,127,Beja,No,Yes,3
+Setúbal,128,Setúbal,No,Yes,3
+Silves,129,Faro,No,Yes,4
+Sines,130,Setúbal,No,Yes,2
+Sintra,131,Lisbon,No,Yes,4
+Tabuaço,132,Viseu,No,Yes,3
+Tarouca,133,Viseu,No,No,0
+Tavira,134,Faro,No,No,0
+Tomar,135,Santarém,No,Yes,5
+Tondela,136,Viseu,No,Yes,4
+Torres Novas,137,Santarém,No,No,0
+Torres Vedras,138,Lisbon,No,Yes,2
+Trancoso,139,Guarda,No,No,0
+Trofa,140,Porto District,No,No,0
+Vagos,141,Aveiro,No,Yes,4
+Vale de Cambra,142,Aveiro,No,No,0
+Valongo,143,Porto,No,No,0
+Valpaços,144,Vila Real,No,No,0
+Vendas Novas,145,Évora,No,Yes,4
+Viana do Alentejo,146,Évora,No,Yes,3
+Viana do Castelo,147,Viana do Castelo,No,Yes,3
+Vila do Bispo,148,Faro,No,Yes,2
+Vila do Conde,149,Porto,No,Yes,3
+Vila do Rei,150,Castelo Branco,No,Yes,4
+Vila Flor,151,Bragança,No,Yes,2
+Vila Franca de Xira,152,Lisbon,Yes,Yes,4
+Vila Nova de Famalicão,153,Braga,No,No,0
+Vila Nova de Foz Côa,154,Guarda,Yes,Yes,5
+Vila Nova de Gaia,155,Porto,Yes,Yes,3
+Vila Real,156,Vila Real,No,Yes,5
+Vila Real de Santo António,157,Faro,No,No,0
+Vila Velha Rodão,158,Castelo Branco,No,No,0
+Vila Viçosa,159,Évora,No,Yes,3
+Vimioso,160,Bragança,No,Yes,3
+Viseu,161,Viseu,No,Yes,5
+Vizela,162,Braga,No,No,0

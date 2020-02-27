@@ -1,0 +1,17 @@
+RoadId,Group,OriginCityId,OriginCityName,Paths,AdjacencyId,AdjacencyCityName,DistanceKM,TimeHours,FuelCost,TollCost,DriverCost,Period
+1,A,147,Viana do Castelo,3,26,Braga,39.0,0.61,3.93,2.09,6.1,DAY/NIGHT
+2,A,147,Viana do Castelo,3,60,Guimarães,31.0,0.53,3.14,2.27,5.3,DAY/NIGHT
+3,A,147,Viana do Castelo,3,115,Póvoa de Varzim,24.0,0.51,2.46,1.89,5.1,DAY/NIGHT
+4,A,115,Póvoa de Varzim,3,147,Viana do Castelo,27.0,0.46,2.74,0.89,4.6,DAY/NIGHT
+5,A,115,Póvoa de Varzim,3,60,Guimarães,25.0,0.5,2.51,1.59,5.0,DAY/NIGHT
+7,A,26,Braga,3,147,Viana do Castelo,36.0,0.79,3.62,0.99,7.9,DAY/NIGHT
+8,A,26,Braga,3,60,Guimarães,19.0,0.29,1.94,1.52,2.9,DAY/NIGHT
+9,A,26,Braga,3,35,Chaves,36.0,0.62,3.66,0.81,6.2,DAY/NIGHT
+10,A,60,Guimarães,3,147,Viana do Castelo,46.0,0.66,4.63,1.77,6.6,DAY/NIGHT
+11,A,60,Guimarães,3,26,Braga,16.0,0.38,1.6,2.35,3.8,DAY/NIGHT
+12,A,60,Guimarães,3,115,Póvoa de Varzim,26.0,0.55,2.58,1.24,5.5,DAY/NIGHT
+40,A,35,Chaves,2,26,Braga,28.0,0.38,2.85,2.51,3.8,DAY/NIGHT
+41,A,35,Chaves,2,27,Bragança,24.0,0.59,2.43,0.52,5.9,DAY/NIGHT
+57,B,27,Bragança,2,35,Chaves,61.0,0.95,6.17,1.23,9.5,DAY/NIGHT
+366,B,115,Póvoa de Varzim,3,27,Bragança,10.0,1.0,1.0,1.0,1.0,DAY/NIGHT
+367,B,27,Bragança,2,115,Póvoa de Varzim,12.0,1.0,1.0,1.0,1.0,DAY/NIGHT
