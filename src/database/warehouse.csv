@@ -1,11 +1,11 @@
 WarehouseId,CityId,WarehouseName,CityName,HasRoad,Roads
-1,1,ArmazÃ©m de Abrantes,Abrantes,Yes,3
-2,11,ArmazÃ©m da Amadora,Amadora,Yes,3
-3,16,ArmazÃ©m de Arraiolos,Arraiolos,Yes,3
-4,23,ArmazÃ©m de Beja,Beja,Yes,4
-5,88,ArmazÃ©m Nelas,Nelas,Yes,4
-6,99,ArmazÃ©m de Ourique,Ourique,Yes,4
-7,103,ArmazÃ©m de Paredes,Paredes,Yes,3
-8,152,ArmazÃ©n VFX,Vila Franca de Xira,Yes,4
-9,154,ArmazÃ©n VNFC,Vila Nova de Foz CÃ´a,Yes,5
-10,155,ArmazÃ©m VNG,Vila Nova de Gaia,Yes,3
+1,1,Armazém de Abrantes,Abrantes,Yes,3
+2,11,Armazém da Amadora,Amadora,Yes,3
+3,16,Armazém de Arraiolos,Arraiolos,Yes,3
+4,23,Armazém de Beja,Beja,Yes,4
+5,88,Armazém Nelas,Nelas,Yes,4
+6,99,Armazém de Ourique,Ourique,Yes,4
+7,103,Armazém de Paredes,Paredes,Yes,3
+8,152,Armazén VFX,Vila Franca de Xira,Yes,4
+9,154,Armazén VNFC,Vila Nova de Foz Côa,Yes,5
+10,155,Armazém VNG,Vila Nova de Gaia,Yes,3
