@@ -4,12 +4,12 @@ import app.PathFinder;
 import core.*;
 
 import javax.swing.table.AbstractTableModel;
-import java.util.ArrayList;
+import java.util.List;
 
 public class RoadTableModel extends AbstractTableModel {
-    private ArrayList<City> cities;
-    private ArrayList<Warehouse> warehouses;
-    private ArrayList<Road> roads;
+    private List<City> cities;
+    private List<Warehouse> warehouses;
+    private List<Road> roads;
     private String[] COLUMN_NAMES = {"Road ID",
             "Group",
             "Paths",

@@ -1,6 +1,7 @@
 package core;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class City {
     private static int count = 0;
@@ -11,7 +12,7 @@ public class City {
     private boolean hasRoad;
     private int roads;
 
-    private ArrayList<Road> outgoingRoads;
+    private List<Road> outgoingRoads;
 
 
     public City(String cityName, int cityId, String districtName, boolean cityHasWarehouse, boolean hasRoad, int roads) {
@@ -26,7 +27,7 @@ public class City {
     }
 
     public City(String cityName, int cityId, String districtName, boolean cityHasWarehouse, boolean hasRoad, int roads,
-                ArrayList<Road> outgoingRoads) {
+                List<Road> outgoingRoads) {
         this.cityName = cityName;
         this.cityId = cityId;
         this.districtName = districtName;
@@ -74,7 +75,7 @@ public class City {
         return count;
     }
 
-    public ArrayList<Road> getOutgoingRoads() {
+    public List<Road> getOutgoingRoads() {
         return outgoingRoads;
     }
 

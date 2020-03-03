@@ -13,12 +13,13 @@ import java.awt.event.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class PathFinder {
-    private static ArrayList<City> cities;
-    private static ArrayList<Road> roads;
-    private static ArrayList<Warehouse> warehouses;
+    private static List<City> cities;
+    private static List<Road> roads;
+    private static List<Warehouse> warehouses;
 
     private CityTableModel cityModel;
     private static WarehouseTableModel warehouseModel;
@@ -1031,7 +1032,7 @@ public class PathFinder {
         updateAdjCities(cities.indexOf((City) originCityComboBox.getSelectedItem()), adjacentCityComboBox);
 
 
-        ArrayList<String> groups = new ArrayList<>();
+        List<String> groups = new ArrayList<>();
         groupModel.addElement("");
         for (Road r : roads) {
             if (!groups.contains(r.getGroup())) {
@@ -1225,7 +1226,7 @@ public class PathFinder {
         updateAdjCities(cityIndex, nonAdjacentList);
 
         //Finds groups and puts them into an editable JComboBox
-        ArrayList<String> groups = new ArrayList<>();
+        List<String> groups = new ArrayList<>();
 
         JComboBox<String> groupList = new JComboBox<>();
 
@@ -1357,7 +1358,7 @@ public class PathFinder {
     --------------------------------------------------------------------------------------------------------------------
      */
     private void deleteRoadFromCity(int cityIndex, String adjCityName) {
-        ArrayList<Integer> indices = new ArrayList<>();
+        List<Integer> indices = new ArrayList<>();
 
         //Goes through the roads belonging to the specified city and saving their indices as they appear in roads array
         for (Road r : cities.get(cityIndex).getOutgoingRoads()) {
@@ -1457,15 +1458,15 @@ public class PathFinder {
     ****END OF DELETION ALGORITHMS****
     --------------------------------------------------------------------------------------------------------------------
     */
-    public static ArrayList<City> getCities() {
+    public static List<City> getCities() {
         return cities;
     }
 
-    public static ArrayList<Road> getRoads() {
+    public static List<Road> getRoads() {
         return roads;
     }
 
-    public static ArrayList<Warehouse> getWarehouses() {
+    public static List<Warehouse> getWarehouses() {
         return warehouses;
     }
 

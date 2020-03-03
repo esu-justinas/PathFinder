@@ -6,13 +6,14 @@ import core.Warehouse;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class CSVFileManager {
     private final static String SOURCEPATH = System.getProperty("user.dir");
 
-    public static void readFromFile(ArrayList<City> cities, ArrayList<Warehouse> warehouses, ArrayList<Road> roads,
+    public static void readFromFile(List<City> cities, List<Warehouse> warehouses, List<Road> roads,
                                     String cityFileName, String warehouseFileName, String roadFileName) throws FileNotFoundException, NoSuchElementException {
         Scanner reader;
         boolean hasWarehouse;
@@ -52,7 +53,7 @@ public class CSVFileManager {
                 hasWarehouse = lines[3].equals("Yes");
                 hasRoad = lines[4].equals("Yes");
 
-                ArrayList<Road> outgoingRoads = new ArrayList<>();
+                List<Road> outgoingRoads = new ArrayList<>();
 
                 for (Road r : roads) {
                     if (Integer.parseInt(lines[1]) == r.getOriginCityId())
@@ -91,7 +92,7 @@ public class CSVFileManager {
     }
 
 
-    public static void saveCityFile(ArrayList<City> cities, String cityFileName) throws IOException {
+    public static void saveCityFile(List<City> cities, String cityFileName) throws IOException {
         final String HEADER = "CityName,CityId,DistrictName,CityHasWarehouse,HasRoad,Roads";
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(SOURCEPATH + cityFileName))) {
@@ -110,7 +111,7 @@ public class CSVFileManager {
         }
     }
 
-    public static void saveWarehouseFile(ArrayList<Warehouse> warehouses, ArrayList<City> cities,
+    public static void saveWarehouseFile(List<Warehouse> warehouses, List<City> cities,
                                          String warehouseFileName, String cityFileName) throws IOException {
         final String HEADER = "WarehouseId,CityId,WarehouseName,CityName,HasRoad,Roads";
 
@@ -132,7 +133,7 @@ public class CSVFileManager {
 
     }
 
-    public static void saveRoadFile(ArrayList<Road> roads, ArrayList<Warehouse> warehouses, ArrayList<City> cities,
+    public static void saveRoadFile(List<Road> roads, List<Warehouse> warehouses, List<City> cities,
                                     String roadFileName, String warehouseFileName, String cityFileName) throws IOException{
         final String HEADER = "RoadId,Group,OriginCityId,OriginCityName,Paths,AdjacencyId,AdjacencyCityName,DistanceKM,TimeHours,FuelCost,TollCost,DriverCost,Period";
 

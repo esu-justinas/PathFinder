@@ -4,10 +4,10 @@ import app.PathFinder;
 import core.Warehouse;
 
 import javax.swing.table.AbstractTableModel;
-import java.util.ArrayList;
+import java.util.List;
 
 public class WarehouseTableModel extends AbstractTableModel{
-    private ArrayList<Warehouse> warehouses;
+    private List<Warehouse> warehouses;
     private final String[] COLUMN_NAMES = {"Warehouse ID",
             "Warehouse Name",
             "City Name",

@@ -4,12 +4,12 @@ import app.*;
 import core.*;
 
 import javax.swing.table.AbstractTableModel;
-import java.util.ArrayList;
+import java.util.List;
 
 public class CityTableModel extends AbstractTableModel{
-    private ArrayList<City> cities;
-    private ArrayList<Warehouse> warehouses;
-    private ArrayList<Road> roads;
+    private List<City> cities;
+    private List<Warehouse> warehouses;
+    private List<Road> roads;
     private final String[] COLUMN_NAMES = {"City ID",
             "City Name",
             "District Name",

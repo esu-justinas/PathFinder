@@ -3,8 +3,8 @@ package core;
 import java.util.*;
 
 public class Algorithm {
-    private ArrayList<City> cities;
-    private ArrayList<Road> roads;
+    private List<City> cities;
+    private List<Road> roads;
     private Set<City> settledNodes;
     private Set<City> unsettledNodes;
     private Map<City, Double> distance;
@@ -12,7 +12,7 @@ public class Algorithm {
     private int criteria;
 
 
-    public Algorithm(ArrayList<City> cities, ArrayList<Road> roads) {
+    public Algorithm(List<City> cities, List<Road> roads) {
         this.cities = cities;
         this.roads = roads;
     }
